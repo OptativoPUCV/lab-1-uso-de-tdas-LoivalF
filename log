@@ -59,3 +59,7 @@ Fri, Mar 21, 2025 12:10:48 PM:
  tests:  4|1
 total_score: 50/70
 5f505be
+Fri, Mar 21, 2025  4:44:55 PM: 
+./test.sh: line 26: gcc: command not found
+Compilation failed
+296deeb
