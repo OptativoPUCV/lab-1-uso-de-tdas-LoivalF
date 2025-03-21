@@ -18,3 +18,9 @@ exercises.c:49:7: error: implicit declaration of function 'push_back' [-Werror=i
 cc1.exe: all warnings being treated as errors
 Compilation failed
 df4186f
+Fri, Mar 21, 2025 11:22:15 AM: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  2|3
+total_score: 20/70
+51dce05
