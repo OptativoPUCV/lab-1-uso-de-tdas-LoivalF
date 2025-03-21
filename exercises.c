@@ -124,24 +124,10 @@ int parentesisBalanceados(char *cadena) {
    List *L = create_list();
    Stack *P = create_stack();
    for (int i = 0; cadena[i] != '\0'; i++) {
-      if (cadena[i] == '(') {
-         push(P, &cadena[i]);
-         pushBack(L, &cadena[i]);
-      }
-      else if (cadena[i] == ')') {
-         if (isEmpty(P)) {
-            free(P);
-            free(L);
-            return 0;
-         }
-         pop(P);
-         popBack(L);
-      }
-   }
-   if (isEmpty(P) && isEmpty(L)) {
-      free(P);
-      free(L);
-      return 1;
+      push(P, &cadena[i]);
+      pushBack(L, &cadena[i]);
+      
+      
    }
    return 0;
 }
